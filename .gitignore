@@ -1,0 +1,9 @@
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+.terraform.lock.hcl
+
+# Lambda artifacts
+*.zip

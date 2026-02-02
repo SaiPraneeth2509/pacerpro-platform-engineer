@@ -1,0 +1,4 @@
+_sourceCategory=app/logs
+| json field=_raw "endpoint","response_time_ms"
+| where endpoint="/api/data" and response_time_ms > 3000
+| count

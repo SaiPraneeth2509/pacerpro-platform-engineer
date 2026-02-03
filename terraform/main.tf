@@ -37,7 +37,7 @@ resource "aws_iam_role_policy" "lambda_policy" {
       {
         Action   = ["ec2:RebootInstances", "ec2:DescribeInstances"]
         Effect   = "Allow"
-        Resource = "*" # Or scope to specific instance ARN for max bonus points
+        Resource = aws_instance.app_server.arn
       },
       {
         Action   = "sns:Publish"

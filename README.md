@@ -1,4 +1,4 @@
-# PacerPro Platform Engineer Coding Assessment
+# Platform Engineer 
 
 ## Part 1: Sumo Logic Query and Alert
 
